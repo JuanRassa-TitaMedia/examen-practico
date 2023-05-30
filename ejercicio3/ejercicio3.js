@@ -14,7 +14,6 @@ const contarCaracter = (cadena, caracter) => {
 }
 
 const resultado3 = document.querySelector("#resultado3");
-// resultado.innerHTML = contarCaracter("Hola como estas", "o");
 const toggleDisplay3 = () => {
   const div = document.querySelector("#ejercicio3");
   if (div.style.display === "none") {
