@@ -1,14 +1,15 @@
-console.log("*************************")
-console.log("EJERCICIO 3 - CANTIDAD DE REPITICIÓN DE UN CARACTER");
 const contarCaracter = (cadena, caracter) => {
   let contador = 0;
   for (const element of cadena) {
-    console.log(element.toLowerCase())
     if (element.toLowerCase() === caracter.toLowerCase()) {
       contador++;
     }
   }
+  console.log("*************************")
+  console.log("EJERCICIO 3 - CANTIDAD DE REPITICIÓN DE UN CARACTER");
   console.log(`La cantidad de veces que se repite el caracter "${caracter}" en la cadena "${cadena}" es: ${contador}`);
+  console.log("FIN EJERCICIO 3")
+  console.log("*************************")
   return `La cantidad de veces que se repite el caracter "${caracter}" en la cadena "${cadena}" es: ${contador}`;
 }
 
@@ -31,15 +32,3 @@ botonContar.addEventListener("click", () => {
   const caracter = inputCaracter.value;
   resultado3.innerHTML = contarCaracter(cadena, caracter);
 })
-
-
-
-
-
-
-
-
-
-
-console.log("FIN EJERCICIO 3")
-console.log("*************************")
