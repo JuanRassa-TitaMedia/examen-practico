@@ -36,6 +36,6 @@ const activarEjemplo3 = () => {
   resultado.innerHTML = `El array invertido es: ${invertirArray(array3)}`;
 }
 const activarEjemplo4 = () => {
-  const array4 = ["Es", 1, "ejemplo", "2", "4", "3", null]
+  const array4 = ["Es", 1, "ejemplo", "2", "4", "3", 345]
   resultado.innerHTML = `El array invertido es: ${invertirArray(array4)}`;
 }
