@@ -1,6 +1,16 @@
 console.log("*************************")
 console.log("EJERCICIO 5 - EQUIPO");
 
+const toggleDisplay = () => {
+  const div = document.querySelector("#ejercicio5");
+  console.log(div)
+  if (div.style.display === "none") {
+    div.style.display = "block";
+  } else {
+    div.style.display = "none";
+  }
+}
+
 class Persona {
     constructor(nombre, apellido, edad) {
         this.nombre = nombre;
@@ -94,8 +104,7 @@ console.log("*************************")
 // Presentación de la info en el DOM:
 const div = document.querySelector("#ejercicio5");
 div.innerHTML = `
-<h3>Detalles del equipo</h3>
-<h4>Entrenador</h4>
+<h3>Entrenador</h3>
 <table>
     <thead>
       <tr>
@@ -116,7 +125,7 @@ div.innerHTML = `
       </tr>
       </tbody>
       </table>
-      <h4>Jugadores</h4>
+      <h3>Jugadores</h3>
   <table>
   <thead>
       <tr>
