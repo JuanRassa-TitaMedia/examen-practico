@@ -1,7 +1,7 @@
 console.log("*************************")
 console.log("EJERCICIO 5 - EQUIPO");
 
-const toggleDisplay = () => {
+const toggleDisplay5 = () => {
   const div = document.querySelector("#ejercicio5");
   console.log(div)
   if (div.style.display === "none") {
