@@ -8,6 +8,7 @@ const toggleDisplay1 = () => {
 }
 const resultado1 = document.getElementById("resultado1");
 const randomParImpar = () => {
+  console.log("*************************")
   console.log("EJERCICIO 1 - GENERAR NUMERO RANDOM Y DETERMINAR SI ES PAR O IMPAR");
   const arregloRandoms = []
   const arregloPares = []
